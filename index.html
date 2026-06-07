@@ -4,8 +4,8 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="color-scheme" content="dark light"/>
-<meta name="description" content="DevOS — Arch Linux for developers. XFCE desktop, LTS kernel, Calamares GUI installer, Apple MacBook ready."/>
-<title>DevOS — Arch Linux for Developers</title>
+<meta name="description" content="devOS — Arch Linux for developers. XFCE desktop, LTS kernel, Calamares GUI installer, Apple MacBook ready."/>
+<title>devOS — Arch Linux for Developers</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
 <link rel="shortcut icon" href="favicon.svg"/>
 <style>
@@ -34,7 +34,7 @@
   --text:        #e8e8e8;
   --muted:       #888;
   --dim:         #3a3a3a;
-  --text-inverse: #ffffff;       /* "OS" in DevOS logo; on coloured/dark bg */
+  --text-inverse: #ffffff;       /* "OS" in devOS logo; on coloured/dark bg */
 
   /* Structural composites — converted from former hardcoded values */
   --nav-bg:              rgba(8,8,15,0.65);
@@ -620,7 +620,7 @@ footer {
   filter: drop-shadow(0 0 32px rgba(23,147,209,0.5));
 }
 
-/* ── PROSE SECTION (Is DevOS for you?) ── */
+/* ── PROSE SECTION (Is devOS for you?) ── */
 .prose-section {
   padding: 0 24px 96px;
 }
@@ -681,7 +681,7 @@ footer {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
-.compare-card.compare-devos {
+.compare-card.compare-devOS {
   border-color: var(--blue-border);
   box-shadow: 0 0 48px rgba(23,147,209,0.1);
 }
@@ -700,7 +700,7 @@ footer {
   background: var(--tag-neutral-bg);
   border: 1px solid var(--border);
 }
-.compare-tag.tag-devos {
+.compare-tag.tag-devOS {
   color: var(--blue);
   background: var(--blue-dim);
   border: 1px solid var(--blue-border);
@@ -713,7 +713,7 @@ footer {
   margin-bottom: 20px;
 }
 .compare-size-num.n-macos { color: var(--macos-num-color) }
-.compare-size-num.n-devos {
+.compare-size-num.n-devOS {
   color: var(--blue);
   text-shadow: 0 0 40px rgba(23,147,209,0.6);
 }
@@ -858,7 +858,7 @@ footer {
   /* Reduce glow intensity — keep presence, lose bloom on light backgrounds */
   .stat-n { text-shadow: 0 0 16px rgba(23,147,209,0.22) }
   .hero-headline .hl-accent { filter: drop-shadow(0 0 20px rgba(23,147,209,0.28)) }
-  .compare-size-num.n-devos { text-shadow: 0 0 24px rgba(23,147,209,0.28) }
+  .compare-size-num.n-devOS { text-shadow: 0 0 24px rgba(23,147,209,0.28) }
 }
 </style>
 </head>
@@ -874,13 +874,13 @@ footer {
 
   <!-- ── NAV ── -->
   <nav>
-    <a class="nav-logo" href="#">
+    <a class="nav-logo" href="/">
       <span>Dev</span><span>OS</span>
     </a>
     <div class="nav-links">
       <a class="nav-link" href="#features">Features</a>
       <a class="nav-link" href="#preview">Installer</a>
-      <a class="nav-link" href="https://github.com/SalDevX/devos" target="_blank">GitHub</a>
+      <a class="nav-link" href="https://github.com/SalDevX/devOS" target="_blank">GitHub</a>
       <a class="nav-btn"  href="#preview">Live Preview</a>
     </div>
   </nav>
@@ -894,7 +894,7 @@ footer {
 
     <h1 class="hero-headline">
       Apple abandoned your Intel MacBook.<br/>
-      <span class="hl-accent">DevOS</span> didn't.
+      <span class="hl-accent">devOS</span> didn't.
     </h1>
 
     <p class="hero-sub">
@@ -912,7 +912,7 @@ footer {
 
     <div class="hero-visual reveal">
       <div class="anim-frame">
-        <img src="installer-animation.svg" alt="DevOS installer animated walkthrough"/>
+        <img src="installer-animation.svg" alt="devOS installer animated walkthrough"/>
         <div class="anim-bar">
           <span class="anim-bar-label">calamares · systemd-boot · ext4 · linux-lts · xfce4</span>
           <a href="installer-preview.html">Open full preview →</a>
@@ -921,13 +921,13 @@ footer {
     </div>
   </section>
 
-  <!-- ── IS DEVOS FOR YOU? ── -->
+  <!-- ── IS devOS FOR YOU? ── -->
   <section class="prose-section">
     <div class="prose-inner reveal">
       <div class="prose-block">
-        <p class="prose-eyebrow">Is DevOS for you?</p>
+        <p class="prose-eyebrow">Is devOS for you?</p>
         <p>If you've never used Linux before — don't start here. Go install Manjaro or Linux Mint first. Break things. Fix things. Learn why things work the way they do. That pain is not wasted — it's the foundation.</p>
-        <p>DevOS is for when you're past that. When you need a machine running on the absolute fly — no configuration marathon, no driver hunting, no half-working trackpad. Boot, install, work.</p>
+        <p>devOS is for when you're past that. When you need a machine running on the absolute fly — no configuration marathon, no driver hunting, no half-working trackpad. Boot, install, work.</p>
         <p class="prose-welcome">If that's you — welcome.</p>
       </div>
     </div>
@@ -947,9 +947,9 @@ footer {
         <div class="compare-size-num n-macos">15.5<span class="compare-size-unit">GB</span></div>
         <p>The macOS Sequoia installer is 15.5 GB. It requires 25 GB of free space to install. And it won't even run on your MacBook.</p>
       </div>
-      <div class="compare-card compare-devos">
-        <div class="compare-tag tag-devos">DevOS</div>
-        <div class="compare-size-num n-devos">3<span class="compare-size-unit">GB</span></div>
+      <div class="compare-card compare-devOS">
+        <div class="compare-tag tag-devOS">devOS</div>
+        <div class="compare-size-num n-devOS">3<span class="compare-size-unit">GB</span></div>
         <p>Boot it from a USB stick in under a minute. Try everything — LibreOffice, GIMP, Brave, the full terminal stack. If you like it, install it. If you don't, pull the stick out and walk away. Nothing touched, nothing lost.</p>
       </div>
     </div>
@@ -968,7 +968,7 @@ footer {
     </div>
 
     <div class="install-intro reveal">
-      DevOS uses Calamares — the same battle-tested graphical installer used by Manjaro, KDE Neon, and dozens of other major distributions. Click through location, keyboard, partitioning, and user setup.
+      devOS uses Calamares — the same battle-tested graphical installer used by Manjaro, KDE Neon, and dozens of other major distributions. Click through location, keyboard, partitioning, and user setup.
     </div>
 
     <div class="install-grid">
@@ -1019,7 +1019,7 @@ footer {
 
     </div>
 
-    <p class="install-closing reveal">Installing an OS should feel safe. DevOS makes it feel safe.</p>
+    <p class="install-closing reveal">Installing an OS should feel safe. devOS makes it feel safe.</p>
   </section>
 
   <div class="divider"></div>
@@ -1096,7 +1096,7 @@ footer {
 
       <div class="feat-card reveal">
         <div class="feat-icon-wrap">🛠</div>
-        <h3 class="feat-title">Dev Toolchain</h3>
+        <h3 class="feat-title">dev Toolchain</h3>
         <p class="feat-desc">Brave, VS Code, Docker, Node 20, Python 3.14, Git, GitHub CLI, Paru AUR helper, PlatformIO. Real-time priority limits pre-configured for audio/embedded work.</p>
         <div class="feat-chips">
           <span class="chip">brave</span>
@@ -1121,7 +1121,7 @@ footer {
       <div class="feat-card reveal">
         <div class="feat-icon-wrap">📦</div>
         <h3 class="feat-title">GUI Installer</h3>
-        <p class="feat-desc">Calamares installer with full DevOS branding. Click through location, keyboard, partitions, and user setup. Systemd-boot configured automatically. No terminal required.</p>
+        <p class="feat-desc">Calamares installer with full devOS branding. Click through location, keyboard, partitions, and user setup. Systemd-boot configured automatically. No terminal required.</p>
         <div class="feat-chips">
           <span class="chip">calamares</span>
           <span class="chip">systemd-boot</span>
@@ -1167,7 +1167,7 @@ footer {
         </div>
         <iframe
           src="installer-preview.html"
-          title="DevOS Installer Preview"
+          title="devOS Installer Preview"
           loading="lazy">
         </iframe>
       </div>

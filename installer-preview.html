@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>DevOS Installer — Preview</title>
+<title>devOS Installer — Preview</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
 <link rel="shortcut icon" href="favicon.svg"/>
@@ -364,7 +364,7 @@
     <div class="dot r"></div>
     <div class="dot y"></div>
     <div class="dot g"></div>
-    <div class="titlebar-label">Install DevOS</div>
+    <div class="titlebar-label">Install devOS</div>
   </div>
 
   <div class="body">
@@ -417,7 +417,7 @@
         </div>
       </div>
 
-      <div class="sidebar-ver">devos · rolling · 2026</div>
+      <div class="sidebar-ver">devOS · rolling · 2026</div>
     </div>
 
     <!-- Content -->
@@ -554,7 +554,7 @@
         <div class="option-row">
           <div class="option-btn selected" onclick="this.parentElement.querySelectorAll('.option-btn').forEach(b=>b.classList.remove('selected'));this.classList.add('selected')">
             <div class="option-btn-title">Erase disk</div>
-            <div class="option-btn-desc">Recommended — wipes the disk and installs DevOS</div>
+            <div class="option-btn-desc">Recommended — wipes the disk and installs devOS</div>
           </div>
           <div class="option-btn" onclick="this.parentElement.querySelectorAll('.option-btn').forEach(b=>b.classList.remove('selected'));this.classList.add('selected')">
             <div class="option-btn-title">Manual partition</div>
@@ -585,7 +585,7 @@
       <!-- PAGE 4: Users -->
       <div class="page" id="page-4">
         <div class="page-title">Who are you?</div>
-        <div class="page-sub">Create your account on DevOS.</div>
+        <div class="page-sub">Create your account on devOS.</div>
         <div class="avatar-row">
           <div class="avatar">
             <svg width="36" height="36" viewBox="0 0 100 100">
@@ -608,7 +608,7 @@
         <div class="form-row">
           <div class="form-group">
             <label class="form-label">Hostname</label>
-            <input class="form-input" value="devos" />
+            <input class="form-input" value="devOS" />
           </div>
         </div>
         <div class="form-row">
@@ -635,7 +635,7 @@
         <div class="summary-grid">
           <div class="summary-card">
             <div class="summary-card-title">System</div>
-            <div class="summary-row"><span class="summary-key">OS</span><span class="summary-val">DevOS (Rolling)</span></div>
+            <div class="summary-row"><span class="summary-key">OS</span><span class="summary-val">devOS (Rolling)</span></div>
             <div class="summary-row"><span class="summary-key">Kernel</span><span class="summary-val">linux-lts</span></div>
             <div class="summary-row"><span class="summary-key">Desktop</span><span class="summary-val">XFCE</span></div>
             <div class="summary-row"><span class="summary-key">Shell</span><span class="summary-val">zsh</span></div>
@@ -657,7 +657,7 @@
             <div class="summary-card-title">User</div>
             <div class="summary-row"><span class="summary-key">Full name</span><span class="summary-val">Dev User</span></div>
             <div class="summary-row"><span class="summary-key">Username</span><span class="summary-val">user</span></div>
-            <div class="summary-row"><span class="summary-key">Hostname</span><span class="summary-val">devos</span></div>
+            <div class="summary-row"><span class="summary-key">Hostname</span><span class="summary-val">devOS</span></div>
             <div class="summary-row"><span class="summary-key">Groups</span><span class="summary-val">wheel, audio, video</span></div>
           </div>
         </div>
@@ -674,7 +674,7 @@
             <path d="M0 0 H86 L100 14 V100 H0 Z" fill="#f0f0f0"/>
             <text x="50" y="68" text-anchor="middle" font-family="system-ui" font-weight="700" font-size="52" letter-spacing="-2" fill="#1a1a1a">do</text>
           </svg>
-          <div class="slideshow-title" id="slide-title">Installing DevOS…</div>
+          <div class="slideshow-title" id="slide-title">Installing devOS…</div>
           <div class="slideshow-sub" id="slide-sub">Setting up your developer workstation</div>
         </div>
         <div class="progress-wrap">
@@ -692,10 +692,10 @@
       <div class="page" id="page-7">
         <div class="finish-hero">
           <div class="finish-check">✓</div>
-          <div class="finish-title">DevOS is installed.</div>
+          <div class="finish-title">devOS is installed.</div>
           <div class="finish-sub">Remove the USB drive and reboot to start using your new system.</div>
           <div class="finish-note">
-            user@devos — default shell: zsh · sudo enabled · WM: XFCE
+            user@devOS — default shell: zsh · sudo enabled · WM: XFCE
           </div>
         </div>
       </div>
@@ -715,7 +715,7 @@ const PAGES = 8;
 let current = 1;
 
 const slides = [
-  { title: "Installing DevOS…",   sub: "Setting up your developer workstation" },
+  { title: "Installing devOS…",   sub: "Setting up your developer workstation" },
   { title: "Built for developers", sub: "XFCE desktop · LTS kernel · Brave · full dev toolchain" },
   { title: "Apple MacBook ready",  sub: "Broadcom WiFi · clamshell switching · Magic Trackpad" },
   { title: "Almost there…",        sub: "Configuring services and dotfiles" },
