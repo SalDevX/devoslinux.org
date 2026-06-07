@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Download DevOS Linux ISO and verification files"/>
+<title>DevOS — Downloads</title>
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+
+<style>
+body {
+  font-family: system-ui, sans-serif;
+  background: #0b0f14;
+  color: #e6edf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+.card {
+  padding: 24px;
+  border: 1px solid #223;
+  border-radius: 12px;
+  background: #111827;
+  text-align: center;
+  width: min(520px, 90vw);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 16px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <h1>DevOS Linux Downloads</h1>
+
+  <p>Download the latest ISO and verification files.</p>
+
+  <a class="button" href="https://downloads.devoslinux.org/devos-2026.06.06-x86_64.iso">
+    ⬇ Download ISO
+  </a>
+
+  <p style="margin-top:16px;">
+    <a href="https://downloads.devoslinux.org/SHA256SUMS">SHA256SUMS</a><br/>
+    <a href="https://downloads.devoslinux.org/SHA256SUMS.asc">Signature</a><br/>
+    <a href="https://downloads.devoslinux.org/devos-signing-key.asc">Signing Key</a>
+  </p>
+</div>
+
+</body>
+</html>
